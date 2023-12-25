@@ -77,7 +77,7 @@ exports.resetPasswordRequest = async (req, res) => {
     // Also set token in email
     const resetPageLink =
       'http://localhost:3000/reset-password?token=' + token + '&email=' + email;
-    const subject = 'reset password for e-commerce';
+    const subject = 'reset password for Mobile Order App';
     const html = `<p>Click <a href='${resetPageLink}'>here</a> to Reset Password</p>`;
 
     // lets send email and a token in the mail body so we can verify that user has clicked right link
