@@ -383,23 +383,7 @@ function Checkout() {
                         Cash
                       </label>
                     </div>
-                    <div className="flex items-center gap-x-3">
-                      <input
-                        id="card"
-                        onChange={handlePayment}
-                        name="payments"
-                        checked={paymentMethod === 'card'}
-                        value="card"
-                        type="radio"
-                        className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                      />
-                      <label
-                        htmlFor="card"
-                        className="block text-sm font-medium leading-6 text-gray-900"
-                      >
-                        Card Payment
-                      </label>
-                    </div>
+                    
                   </div>
                 </fieldset>
               </div>
